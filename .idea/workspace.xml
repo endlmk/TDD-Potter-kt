@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0f15661-4131-4f50-8a0d-c9de05592df4" name="変更" comment="Setup kotest.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_kotest_assertions_core_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_kotest_runner_junit5_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDD-Potter-kt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/PotterTest.kt" afterDir="false" />
+    <list default="true" id="73b5ca1c-0192-4854-b696-91960a178a16" name="変更" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/io_kotest_assertions_core_jvm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/io_kotest_runner_junit5_jvm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-Potter-kt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/PotterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/PotterTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,11 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +45,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2HdH3r1eDZ1Q6WcMu0TndFW6eor" />
+  <component name="ProjectId" id="2HnZT68PCqLKrMRZj7uZvppRL1p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,31 +53,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Kenichi Mishima/IdeaProjects/TDD-Potter-kt",
     "project.structure.last.edited": "モジュール",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotest.PotterTest: my first test">
-    <configuration name="PotterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-Potter-kt" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PotterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="PotterTest: my first test" type="ioKotest" factoryName="Kotest" defaultName="singleModule">
-      <module name="TDD-Potter-kt" />
+      <module name="TDD-Potter-kt.test" />
       <option name="jrePath" value="" />
       <option name="jrePathEnabled" value="false" />
       <option name="passParentEnvs" value="true" />
@@ -80,30 +77,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotest.PotterTest: my first test" />
-        <item itemvalue="JUnit.PotterTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
-      <changelist id="e0f15661-4131-4f50-8a0d-c9de05592df4" name="変更" comment="" />
-      <created>1668607851718</created>
+      <changelist id="73b5ca1c-0192-4854-b696-91960a178a16" name="変更" comment="" />
+      <created>1668922815866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668607851718</updated>
+      <updated>1668922815866</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit.">
-      <created>1668608039233</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668608039233</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,14 +99,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit." />
-    <MESSAGE value="Setup kotest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup kotest." />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
