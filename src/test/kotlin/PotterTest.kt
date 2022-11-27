@@ -18,4 +18,11 @@ class PotterTest : FunSpec ({
         Potter.price(arrayOf(0, 1, 2, 3)) shouldBe 8 * 4 * 0.8
         Potter.price(arrayOf(0, 1, 2, 3, 4)) shouldBe 8 * 5 * 0.75
     }
+
+    test("several discounts") {
+        Potter.price(arrayOf(0, 0, 1)) shouldBe 8 * 2 * 0.95 + 8
+        Potter.price(arrayOf(0, 0, 1, 1)) shouldBe (8 * 2 * 0.95) * 2
+        Potter.price(arrayOf(0, 0, 1, 2, 2, 3)) shouldBe (8 * 4 * 0.8) + (8 * 2 * 0.95)
+        Potter.price(arrayOf(0, 1, 1, 2, 3, 4)) shouldBe (8 * 5 * 0.75) + 8
+    }
 })
